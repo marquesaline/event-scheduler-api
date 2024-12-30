@@ -1,8 +1,12 @@
-# FactoryBot.define do
-#     factory :event do
-#         name { "MyString" }
-#         description { "MyText" }
-#         date { "2020-06-02 16:34:33" }
-#         location { "MyString" }
-#     end
-# end
+FactoryBot.define do
+  factory :event do
+    title { "MyString" }
+    description { "MyText" }
+    start_time { "2024-12-30 15:06:44" }
+    end_time { "2024-12-30 15:06:44" }
+    reminder_time { "2024-12-30 15:06:44" }
+    recurring_rule { "MyString" }
+    status { "MyString" }
+    notification_sent { false }
+  end
+end
